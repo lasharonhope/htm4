@@ -4,59 +4,83 @@
 <meta charset="utf-8">
 <title>flexboxlayout</title>
 	
-<link href="jquery/jquery-ui/jquery-ui.theme.min.css" rel="stylesheet" type="text/css">
-<link href="main.css" rel="stylesheet" type="text/css">
-</head>
-<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-  <script>
-  $( function() {
-    $( "#accordion" ).accordion();
-  } );
-  </script>
-  <style>
-		
-	</style>
 
+<link href="main.css" rel="stylesheet" type="text/css">
+	<link href="main.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/icy3fcw.css">
+</head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: burlywood;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: burlywood;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: brown;
+}
+
+.active {
+  background-color: brown;
+}
+</style>
 <body>
-	<div id="container">
-		<header>Vacation in Paradise</header>
-		<nav>Navigation will go here</nav>
+	
+		<nav>
+			<ul>
+  <li><h1><a href="#home">Home</a></h1></li>
+  <li><h1><a href="#popularbeaches">Popular Beaches</a></h1></li>
+  <li><h1><a href="#attractions">Attractions</a></h1></li>
+  <li style="float:center"><h1><a class="active" href="#contact">Contact</a></h1></li>
+			</ul>
+</nav>
+	<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: saddlebrown;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
 		
 		<div class="flex-container">
 		
-		<div><div id="accordion">
-  <h3>California</h3>
-  <div>
-    <p>
-    </p>
-  </div>
-  <h3>Florida</h3>
-  <div>
-    <p>
-    </p>
-  </div>
-  <h3>Hawaii</h3>
-  <div>
-    <p>
-    </p>
-    <ul>
-      <li>List item one</li>
-      <li>List item two</li>
-      <li>List item three</li>
-    </ul>
-  </div>
-</div></div>
-		<div> <p>
-    Attractions
-    </p></div>
-		<div> <p>
-Contact
-    </p></div>
-
-
-			
-		</div>
+		
 	</div>
 	<p>Sign up for updates!!!</p>
 	<form>
