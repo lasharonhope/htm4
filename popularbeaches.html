@@ -70,18 +70,79 @@ article{
 	float: left;
 	margin: 20px;
 }
+	div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
 	</style>
 <body>
 		<div id="wrapper">
 		<section>
 	<article class="left">
 			<h1>Destin,FL&#128151;</h1>
+		<div class="gallery">
+  <a target="_blank" href="images/fortwaltonbeach.jpg">
+    <img src="images/fortwaltonbeach.jpg" alt="Fort Walton Beach" width="600" height="400">
+  </a>
+  <div class="desc">Fort Walton Beach in Destin, FL</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/crabisland.jpeg">
+    <img src="images/crabisland.jpeg" alt="Crab Island" width="600" height="400">
+  </a>
+  <div class="desc">Crab Island &nbsp; &nbsp;&nbsp;</div>
+</div>
+
 							</article>
 	<article class="center">
-			<h1>Maui,Hawaii&#128525;</h1>
+			<h1>Malibu,CA&#128525;</h1>
+				<div class="gallery">
+  <a target="_blank" href="images/carbonbeach.jpg">
+    <img src="images/carbonbeach.jpg" alt="Carbon Beach" width="600" height="400">
+  </a>
+  <div class="desc">Carbon Beach</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/malibu coast.jpeg">
+    <img src="images/malibu coast.jpeg" alt="Malibu Coast" width="600" height="400">
+  </a>
+  <div class="desc">Malibu Coast &nbsp; &nbsp;&nbsp;</div>
+</div>
+		
 			</article>
 	<article class="right">
-			<h1>Malibu,Ca&#127754;</h1>
+			<h1>Maui,HI&#127754;</h1>
+				<div class="gallery">
+  <a target="_blank" href="images/waileabeach.jpg">
+    <img src="images/waileabeach.jpg" alt="Wailea Beach" width="600" height="400">
+  </a>
+  <div class="desc">Wailea Beach</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/makena.jpeg">
+    <img src="images/makena.jpeg" alt="Makena Beach" width="600" height="400">
+  </a>
+  <div class="desc">Makena Beach</div>
+</div>
 			</article>
 			</section>
 	</div>
